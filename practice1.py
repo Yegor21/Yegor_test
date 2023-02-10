@@ -33,3 +33,6 @@ f_2 = fio.replace("Ivanou", "Ivan")
 # f_3 = fio.replace("Ivan", "Ivanou")
 new_fio = f_2
 print(new_fio)
+
+# 7
+#task
