@@ -4,35 +4,56 @@ print(type(str))
 print(type(7))
 print(type(9.99))
 
+# 1
+
 num = -1.6
 int_round = round(num)
 print(int_round)
 
-num = 2.235566470338304765
-f_r = round(num, 5)
-print(f_r)
-
-# 3
-spisok = [123, 'dfr', 'p812']
-print(spisok)
-
-# 4
+# 2
 site = 'www.my_site.com#about'
 s1 = site.replace('#', '/', )
 print(s1)
 
-# 5
+# 3
 word_1 = 'stroka'
-word_2 = word_1.replace('a', 'ing')
+word_2 = word_1 + 'ing'
 print(word_2)
+
+# 4
+
+str_fio = 'Ivanou Ivan'
+k = str_fio.split(' ')
+print(k[1] + ' ' + k[0])
+
+# 5
+
+str_fio = ' Yegor Osipik '
+str_fio.strip(' ')
+print(str_fio.strip(' '))
 
 # 6
 
-fio = "Ivanou Ivan"
-f_2 = fio.replace("Ivanou", "Ivan")
-# f_3 = fio.replace("Ivan", "Ivanou")
-new_fio = f_2
-print(new_fio)
+dict = {'1A': '30', '1B': '28', '1C': '23', '1D': '25', '2A': '31', '2B': '27', '2C': '26', '2D': '29', '3A': '30',
+        '3B': '24', }
+school = dict
+print(school)
 
 # 7
-#task
+x = [3, 9.5, 'Python', 999999]
+print(x[1])
+
+# 8
+
+str_1 = 'employ'
+str_2 = 'employment'
+if str_2.__contains__(str_1):
+    print('Да, \nвходит.')
+else:
+    print('Нет, \nне входит')
+
+# 9
+
+x = "My name is Agent Smith"
+print(x[1])  # y
+print(x[3:18:3])  # nesgt
