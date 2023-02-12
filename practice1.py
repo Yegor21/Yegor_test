@@ -1,12 +1,20 @@
 print(type(7))
 print(type('hello'))
 print(type(str))
-print(type(7))
 print(type(9.99))
+print(type({9.99}))
+print(type({"num1": "234"}))
+print(type(["apple", "banana", "cherry"]))
+print(type(True))
+print(type(None))
 
 # 1
 
 num = -1.6
+int_round = round(num)
+print(int_round)
+
+num = 2.99
 int_round = round(num)
 print(int_round)
 
