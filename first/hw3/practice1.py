@@ -42,8 +42,9 @@ print(str_fio.strip(' '))
 
 # 6
 
-dict = {'1A': '30', '1B': '28', '1C': '23', '1D': '25', '2A': '31', '2B': '27', '2C': '26', '2D': '29', '3A': '30',
-        '3B': '24', }
+dict = {'1A': '30', '1B': '28', '1C': '23', '1D': '25', '2A': '31',
+        '2B': '27', '2C': '26', '2D': '29', '3A': '30',
+        '3B': '24'}
 school = dict
 print(school)
 
@@ -65,3 +66,9 @@ else:
 x = "My name is Agent Smith"
 print(x[1])  # y
 print(x[3:18:3])  # nesgt
+
+# lst_str = ['один', 'два', 'три', 'четыре']
+# lst_num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+# print(dict(zip(lst_num, lst_str)))
+
+
